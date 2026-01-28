@@ -55,19 +55,20 @@ eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta lndist gatt_d contig comlang_off gsp
 eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta lndist gatt_d contig comlang_off gsp,a(year iso_o iso_d)
 eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta,a(year iso_O#iso_D)
 esttab,se 
-
-local year_subsample "if year>=1984 & year <= 2004"
-eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta lndist gatt_d contig comlang_off gsp `year_subsample',a(year)
-eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta lndist gatt_d contig comlang_off gsp `year_subsample',a(year iso_o iso_d)
-eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta `year_subsample',a(year iso_O#iso_D)
-esttab,se
-
-local year_subsample "if year>=1989 & year <= 1999"
-eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta lndist gatt_d contig comlang_off gsp `year_subsample',a(year)
-eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta lndist gatt_d contig comlang_off gsp `year_subsample',a(year iso_o iso_d)
-eststo: qui reghdfe lnX lnGDP_o lnGDP_d rta `year_subsample',a(year iso_O#iso_D)
-esttab,se
-
-scatter lnX lnGDP_o if iso_d=="USA",ms(oh) graphregion(color(white)) scheme(s1mono)
 ```
 ---
+## Visualization
+```stata
+* Scatter plot with linear fit line
+  twoway ///
+    (scatter flow gdp_o if iso_d=="USA" & year==2006 & (inlist(iso_o,"AUT", "BEL", "BGR", "DNK", "EST", "FIN", "FRA", "DEU") |inlist(iso_o,"CAN", "MEX") ), mlabel(iso_o) msize(medium)) ///
+    (lfit flow gdp_o if iso_d=="USA" & year==2006 & inlist(iso_o,"AUT", "BEL", "BGR", "DNK", "EST", "FIN", "FRA", "DEU")), ///
+    title("EU Exports to US vs GDP") ///
+    subtitle("Higher GDP correlates with higher export flows") ///
+    xtitle("GDP (billions USD)") ///
+    ytitle("Exports to US (billions USD)") ///
+    legend(order(1 "EU Countries" 2 "Linear fit")) ///
+    note("Data source: Your source here") ///
+    graphregion(color(white)) ///
+    scheme(s1mono)
+```
