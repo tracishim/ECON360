@@ -89,7 +89,7 @@ use "workfile_china_long.dta", replace
 ssc install maptile, replace
 ssc install spmap, replace
 maptile_install using "http://files.michaelstepner.com/geo_cz1990.zip", replace
-// 2. Plot Import Penetration
+// 3. Plot Import Penetration
 rename czone cz
 maptile d_tradeusch_pw, geo(cz1990) fcolor(Reds) twopt(title(""))
 ```
