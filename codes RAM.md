@@ -93,7 +93,11 @@ cap drop county
 gen county = cty_fips
 
 // 3. Plot Import Penetration
+************************************************************************************************************************
+// (you must first install the packages and the maptile files, see [instruction]:(https://michaelstepner.com/maptile/)
 // ssc install maptile
 // ssc install spmap
+// maptile_install using "http://files.michaelstepner.com/geo_county1990.zip"
+************************************************************************************************************************
 maptile d_tradeusch_pw, geo(county1990) fcolor(Reds) twopt(title(""))
 ```
